@@ -1,0 +1,10 @@
+package in.sujal.ecommerce.service;
+
+import in.sujal.ecommerce.model.User;
+
+import java.util.Optional;
+
+public interface UserService {
+  User save(User user);
+  Optional<User> findByEmail(String email);
+}

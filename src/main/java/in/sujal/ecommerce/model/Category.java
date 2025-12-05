@@ -1,7 +1,6 @@
 package in.sujal.ecommerce.model;
 
 import jakarta.persistence.*;
-import java.util.*;
 
 @Entity
 public class Category {
